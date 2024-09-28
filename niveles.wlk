@@ -58,6 +58,6 @@ object config {
 	}
 
 	method configurarGravedad(){
-		game.onTick(800, "gravedad", { pepita.baja() })
+		game.onTick(800, "gravedad", { pepita.baja() }) //para testear arreglale la gravedad (800), en mi opinion es muy poco tiempo
 	}
 }

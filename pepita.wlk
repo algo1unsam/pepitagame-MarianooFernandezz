@@ -60,7 +60,7 @@ object pepita {
 	}
 
 	method baja(){
-		if (!self.estaEnElSuelo() && !self.estaCansada()) {
+		if (!self.estaEnElSuelo() && !self.estaCansada() && !self.estaEnElNido()) {
 		position = position.down(1)
 		}
 	}
