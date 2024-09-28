@@ -37,7 +37,7 @@ object pepita {
 
 	method irA(nuevaPosicion) {
 		if (!self.estaCansada() && !self.esAtrapada() && !self.estaEnElNido()) { //puse esta condicion tan larga xq si cumple, el delay permitia que pepita se siga moviendo
-			if (nuevaPosicion.x().between(0, game.width() - 1) && nuevaPosicion.y().between(0, game.height() - 1)) { //si esta adentro de los bordes del jueguito.. 
+			if (nuevaPosicion.x().between(0, game.width() - 1) && nuevaPosicion.y().between(0, game.height() - 1)) { //si la direccion donde me quiero mover esta dentro de los bordes del jueguito.. 
 				self.vola(position.distance(nuevaPosicion))
 				position = nuevaPosicion
 			}
