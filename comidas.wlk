@@ -8,6 +8,9 @@ object manzana {
 
 	method energiaQueOtorga() = 40
 
+		method teEncontro(ave) { //para q no tire error
+	}
+
 }
 
 object alpiste {
@@ -18,5 +21,9 @@ object alpiste {
 
 	method energiaQueOtorga() = 70
 
+		method teEncontro(ave) { //para q no tire error
+	}
+
 }
+
 
